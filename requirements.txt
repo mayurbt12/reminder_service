@@ -1,0 +1,22 @@
+# Reminder Service Dependencies
+# These packages are required for the reminder service to function
+
+# Database
+sqlalchemy>=2.0.0
+
+# API Framework
+fastapi>=0.110.0
+uvicorn>=0.23.0
+
+# Data Validation
+pydantic>=2.4.0
+pydantic-settings>=2.0.0
+
+# HTTP Client (for background worker)
+httpx>=0.24.0
+
+# MCP (Model Context Protocol)
+mcp>=1.0.0
+
+# Additional utilities (if needed)
+# python-dateutil>=2.8.0  # Not needed - using datetime.fromisoformat()
